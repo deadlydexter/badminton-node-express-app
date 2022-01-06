@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Badminton League</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://cdn.hashnode.com/res/hashnode/image/upload/v1610891093756/xEmMNg8kA.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel='stylesheet' href='/css/style.css' />
+</head>
+
+<body>
+    <div class="container test text-center">League Players</div>
+    <div class="container">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">Age</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                <% name.forEach(function(name){ %>
+                    <tr>
+                        <th scope="row">
+                            <%= name.playerId %>
+                        </th>
+                        <td>
+                            <%= name.firstName %>
+                        </td>
+                        <td>
+                            <%= name.lastName %>
+                        </td>
+                        <td>
+                            <%= name.age %>
+                        </td>
+
+                        <% }) %>
+                    </tr>
+
+            </tbody>
+        </table>
+
+
+    </div>
+</body>
+<div class="container test">
+    <a class=" btn btn-primary" href="./getAllPlayers">Visit player list</a>
+    <a class=" btn btn-primary" href="./standings">League Standings</a>
+    <a class=" btn btn-primary" href="./new">Save Weekly Score</a>
+</div>

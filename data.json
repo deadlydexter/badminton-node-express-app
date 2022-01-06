@@ -1,0 +1,20 @@
+[
+    {
+        "playerId": 1,
+        "firstName": "Satheesh",
+        "lastName": "Swaminathan",
+        "age": 26
+    },
+    {
+        "playerId": 2,
+        "firstName": "Priya",
+        "lastName": "Swaminathan",
+        "age": 25
+    },
+    {
+        "playerId": 3,
+        "firstName": "Hari",
+        "lastName": "Palanisamy",
+        "age": 24
+    }
+]

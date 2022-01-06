@@ -1,0 +1,35 @@
+[
+    {
+        "firstName": "Satheesh",
+        "lastName": "Swaminathan",
+        "playerId": 1,
+        "totalScores": {
+            "totalGamesWon": 6,
+            "totalGamesLost": 2,
+            "totalMatchesWon": 3,
+            "totalMatchesLost": 1
+        }
+    },
+    {
+        "firstName": "Priya",
+        "lastName": "Swaminathan",
+        "playerId": 2,
+        "totalScores": {
+            "totalGamesWon": 6,
+            "totalGamesLost": 0,
+            "totalMatchesWon": 3,
+            "totalMatchesLost": 1
+        }
+    },
+    {
+        "firstName": "Hari",
+        "lastName": "Palanisamy",
+        "playerId": 3,
+        "totalScores": {
+            "totalGamesWon": 6,
+            "totalGamesLost": 0,
+            "totalMatchesWon": 3,
+            "totalMatchesLost": 0
+        }
+    }
+]
